@@ -1,0 +1,94 @@
+
+/* 
+color palette from video:
+#11151C - blue-black
+#212D40 - prussian blue
+#364156 - charcoal
+#7D4E57 - tuscan red
+#D66853 - copper red
+
+*/ 
+body {
+	/* background: black; */
+	color: #364156;
+	background: black;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	}
+img {
+	width: 300px;
+	margin: 10px;
+}
+
+	
+/* Profile
+--------------------------*/
+h1 {
+	font-size: 300%;
+}
+h1, h2 { 
+	font-family: 'Crete Round', serif;
+}
+
+header {
+
+	background: #212D40;
+	color: #F7FFF7;
+	padding: 2%;
+}
+.image2 img {
+	height: 512px;
+}
+.content-wrap { 
+	width: 50%;
+	margin: 0 auto;
+	padding: 20px;
+}
+.side {
+	width: 30%;
+	color: white;
+	padding: 20px;
+}
+/* Projects
+--------------------------*/
+.projects {
+	background: #364156;
+	padding: 2%;
+	color: white;
+}
+.project-item {
+	overflow: hidden;
+}
+
+.project-item img {
+	float: left;
+}
+
+/* Work Experience
+--------------------------*/
+.work-experience {
+	border: 1px solid white;
+	
+}
+
+/* Education
+--------------------------*/
+.education {
+	border: 1px solid white;
+}
+
+/* Contact InfoBackground
+--------------------------*/
+footer {
+	font-family: 'Open Sans', sans-serif;
+	background: #11151C;
+	color: #F7FFF7;
+	padding: 2%;
+	margin: 0 auto;
+}
+a:hover, a:visited {
+	color: white;
+}
+
+
+
